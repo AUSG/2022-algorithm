@@ -15,8 +15,8 @@ int main() {
         int score[3] = {};
         int n;
         cin >> n;
-        map<string, int> wordToScore = {};
-        map<int, vector<string>> manToWords = {};
+        map<string, int> wordToScore = {}; // 나중에 세명의 점수를 합해서 출력하기 위해 단어별 점수를 저장하는 map
+        map<int, vector<string>> manToWords = {}; // 세명이 말한 단어를 저장하는 map
         for (int i = 0; i < 3; i++) { // 3명의 답
             manToWords[i] = {};
             for (int j = 0; j < n; j++) { // n개의 단어
