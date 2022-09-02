@@ -10,6 +10,9 @@ using namespace std;
 
 void solve();
 
+long long area[1000 + 1][1000 + 1] = {};
+long long dp[1000 + 1][1000 + 1] = {};
+
 int main() {
     int t;
     cin >> t;
@@ -20,7 +23,11 @@ int main() {
 }
 
 void solve() {
-    int area[1000 + 1][1000 + 1] = {};
+    for (int i = 0; i <= 1000; i++) {
+        for(int j = 0; j <= 1000; j++) {
+            area[i][j] = dp[i][j] = 0;
+        }
+    }
 
     int n, q; // n: the number of rectangles, q: the number of queries
     cin >> n >> q;
@@ -31,20 +38,16 @@ void solve() {
         area[h][w] += h * w;
     }
 
-    int dp[1000 + 1][1000 + 1] = {};
-
-    for (long long x = 2; x <= hb; x++) {
-        if (dp[x][2] == 0) dp[x][2] = dp[x - 1][2] + area[x - 1][1];
-        for (long long y = 3; y <= wb; y++) {
-            if (dp[x][y] == 0) {
-                dp[x][y] = dp[x - 1][y] + dp[x][y - 1] - dp[x - 1][y - 1] + area[x - 1][y - 1];
-            }
+    for (int i = 2; i <= 1000; i++) {
+        for (int j = 2; j <= 1000; j++) {
+            dp[i][j] = dp[i - 1][j] + dp[i][j - 1] - dp[i - 1][j - 1] + area[i - 1][j - 1];
         }
     }
 
     for (int i = 0; i < q; i++) {
         long long hs, ws, hb, wb;
         cin >> hs >> ws >> hb >> wb;
+
         cout << dp[hb][wb] - dp[hs + 1][wb] - dp[hb][ws + 1] + dp[hs + 1][ws + 1] << endl;
     }
 }
