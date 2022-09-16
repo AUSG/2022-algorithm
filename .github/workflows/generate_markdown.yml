@@ -11,4 +11,3 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: plzprayme/online-judge-directory-tree-to-readme@application
-
