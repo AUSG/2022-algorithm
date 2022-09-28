@@ -138,6 +138,7 @@
   * [dummy](https://github.com/AUSG/2022-algorithm/blob/master/week_5/성일/dummy)
 * [혜성](https://github.com/AUSG/2022-algorithm/tree/master/week_5/혜성)
   * [dummy](https://github.com/AUSG/2022-algorithm/blob/master/week_5/혜성/dummy)
+* [Z_1074](https://github.com/AUSG/2022-algorithm/blob/master/week_5/Z_1074.java)
 * [시온](https://github.com/AUSG/2022-algorithm/tree/master/week_5/시온)
   * [dummy](https://github.com/AUSG/2022-algorithm/blob/master/week_5/시온/dummy)
 * [한솔](https://github.com/AUSG/2022-algorithm/tree/master/week_5/한솔)
