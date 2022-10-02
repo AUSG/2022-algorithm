@@ -4,3 +4,4 @@ for i in {1..12}; do
 		touch week_$i/$j/dummy
 	done
 done
+
