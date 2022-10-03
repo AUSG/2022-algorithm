@@ -162,6 +162,7 @@
   * [dummy](https://github.com/AUSG/2022-algorithm/blob/master/week_6/%EC%84%B1%EB%B9%88/dummy)
 * [성찬](https://github.com/AUSG/2022-algorithm/tree/master/week_6/%EC%84%B1%EC%B0%AC)
   * [dummy](https://github.com/AUSG/2022-algorithm/blob/master/week_6/%EC%84%B1%EC%B0%AC/dummy)
+  * [절대값힙](https://github.com/AUSG/2022-algorithm/blob/master/week_6/%EC%84%B1%EC%B0%AC/%EC%A0%88%EB%8C%80%EA%B0%92%ED%9E%99.java)
 * [가영](https://github.com/AUSG/2022-algorithm/tree/master/week_6/%EA%B0%80%EC%98%81)
   * [dummy](https://github.com/AUSG/2022-algorithm/blob/master/week_6/%EA%B0%80%EC%98%81/dummy)
 * [수민](https://github.com/AUSG/2022-algorithm/tree/master/week_6/%EC%88%98%EB%AF%BC)
