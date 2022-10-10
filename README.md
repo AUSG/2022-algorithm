@@ -166,7 +166,7 @@
 * [가영](https://github.com/AUSG/2022-algorithm/tree/master/week_6/%EA%B0%80%EC%98%81)
   * [dummy](https://github.com/AUSG/2022-algorithm/blob/master/week_6/%EA%B0%80%EC%98%81/dummy)
 * [수민](https://github.com/AUSG/2022-algorithm/tree/master/week_6/%EC%88%98%EB%AF%BC)
-  * [dummy](https://github.com/AUSG/2022-algorithm/blob/master/week_6/%EC%88%98%EB%AF%BC/dummy)
+  * [1074Z](https://github.com/AUSG/2022-algorithm/blob/master/week_6/%EC%88%98%EB%AF%BC/1074Z.py)
 * [다롬](https://github.com/AUSG/2022-algorithm/tree/master/week_6/%EB%8B%A4%EB%A1%AC)
   * [dummy](https://github.com/AUSG/2022-algorithm/blob/master/week_6/%EB%8B%A4%EB%A1%AC/dummy)
 * [나희](https://github.com/AUSG/2022-algorithm/tree/master/week_6/%EB%82%98%ED%9D%AC)
