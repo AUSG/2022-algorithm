@@ -160,6 +160,7 @@
   * [dummy](https://github.com/AUSG/2022-algorithm/blob/master/week_5/%EC%98%88%EC%A7%84/dummy)
 * [지우](https://github.com/AUSG/2022-algorithm/tree/master/week_5/%EC%A7%80%EC%9A%B0)
   * [dummy](https://github.com/AUSG/2022-algorithm/blob/master/week_5/%EC%A7%80%EC%9A%B0/dummy)
+  * [BJ2606](https://github.com/AUSG/2022-algorithm/blob/master/week_5/%EC%A7%80%EC%9A%B0/BJ2606.py)
 # week_6
 * [성빈](https://github.com/AUSG/2022-algorithm/tree/master/week_6/%EC%84%B1%EB%B9%88)
   * [dummy](https://github.com/AUSG/2022-algorithm/blob/master/week_6/%EC%84%B1%EB%B9%88/dummy)
